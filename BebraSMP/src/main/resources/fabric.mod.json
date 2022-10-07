@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bebra",
+  "version": "${version}",
+  "name": "BebraSMP",
+  "description": "Мод для управления BebraSMP.",
+  "authors": [
+    "Pavlychev"
+  ],
+  "contact": {
+    "sources": "https://github.com/PavlychevV/BebraSMP",
+    "issues": "https://github.com/PavlychevV/BebraSMP/issues"
+  },
+
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "moscow.pavlychev.bebra.BebraSMP"
+    ]
+  },
+
+  "depends": {
+    "minecraft": ">=1.19"
+  }
+}
